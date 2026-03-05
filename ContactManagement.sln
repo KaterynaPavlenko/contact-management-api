@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Api", "ContactManagement.Api\ContactManagement.Api.csproj", "{24D042C8-77C2-41E4-80A4-AA9851984366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Tests.Integration", "ContactManagement.Tests.Integration\ContactManagement.Tests.Integration.csproj", "{E0D14C47-C218-4A22-AC23-AF7CB5194178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{0A15F116-F23A-4B6C-B455-26DAC9B11050}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24D042C8-77C2-41E4-80A4-AA9851984366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D042C8-77C2-41E4-80A4-AA9851984366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D042C8-77C2-41E4-80A4-AA9851984366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D042C8-77C2-41E4-80A4-AA9851984366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D14C47-C218-4A22-AC23-AF7CB5194178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D14C47-C218-4A22-AC23-AF7CB5194178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D14C47-C218-4A22-AC23-AF7CB5194178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D14C47-C218-4A22-AC23-AF7CB5194178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
