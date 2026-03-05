@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Mono and Visual Studio
+*.csproj.user
+*.resharper
+*.dotsettings.user
+
+# IDEs
+.idea/
+.vscode/
+
+# Rider
+*.sln.iml
+
+# ASP.NET Core
+appsettings.*.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
